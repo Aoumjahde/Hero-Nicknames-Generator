@@ -170,4 +170,40 @@ section{
 }
 .Last-name{
     color: yellow;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.car_img{
+    width: 500px;
+    height: 300px;
+}
+.code_btn{
+    margin-top: 13px;
+    height: 60px;
+    width: 300px;
+    border: solid;
+    border-radius: 10px;
+    background-color: rgb(255, 136, 0);
+    font-style: italic;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(255, 136, 0);
+    background-color: black;
+    
+
+}
+.code_btn:active{
+    box-shadow: 0px 5px 6px rgba(255, 187, 0, 0.2);
+    transform: translateY(2px);    
+}
+.url{
+    color: rgb(255, 136, 0);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: none;
 }
