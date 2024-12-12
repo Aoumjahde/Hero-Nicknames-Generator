@@ -138,6 +138,7 @@ section{
 }
 .Title_container{
     color: white;
+    
 }
 
 .full-name{
@@ -150,23 +151,13 @@ section{
     line-height: 2.5rem;
 
 }
-.img{
-    width: 330px;
-    height: 310px;
-    border-radius: 50%;
-}
 
-.img:hover{
-    box-shadow: 2px 0px 5px 5px rgb(255, 136, 0);
-    transform: translateY(2px);
-    transform: scaleX(2px);  
-}
 
 .description{
     color: white;
     font-family: "Inter", sans-serif;
     margin-right: 5px;
-    margin-bottom: 2rem;
+    /* margin-bottom: 1rem; */
 }
 .Last-name{
     color: yellow;
